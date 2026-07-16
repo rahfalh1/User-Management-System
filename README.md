@@ -16,22 +16,20 @@ This project is a simple web application developed using HTML, CSS, PHP, and MyS
 
 - HTML
 - CSS
+- JS
 - PHP
 - MySQL
 - XAMPP
 
-## Project Structure
-
-```
 Task_Web/
 │── index.php
 │── db.php
 │── toggle.php
 │── style.css
+│── script.js
 │── database.sql
 │── README.md
 └── screenshot.png
-```
 
 ## Database
 
