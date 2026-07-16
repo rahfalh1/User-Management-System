@@ -78,4 +78,4 @@ Table Columns
 
 ## Screenshot
 
-![Project Screenshot](screenshot.png)
+![Project Screenshot}(Screenshot.png)
