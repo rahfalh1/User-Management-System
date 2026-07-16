@@ -28,7 +28,9 @@ Task_Web/
 │── db.php
 │── toggle.php
 │── style.css
-└── README.md
+│── database.sql
+│── README.md
+└── screenshot.png
 ```
 
 ## Database
@@ -37,6 +39,12 @@ Database Name:
 
 ```
 taskdb
+```
+
+Database Script:
+
+```
+database.sql
 ```
 
 Table Name:
@@ -54,6 +62,7 @@ Table Columns
 | age | INT |
 | status | TINYINT(1) |
 
+
 ## How to Run
 
 1. Install XAMPP.
@@ -62,11 +71,8 @@ Table Columns
    ```
    C:\xampp\htdocs\
    ```
-4. Create a database named:
-   ```
-   taskdb
-   ```
-5. Create the `users` table.
+4. Open phpMyAdmin.
+5. Import the `database.sql` file.
 6. Open:
    ```
    http://localhost/Task_Web/index.php
